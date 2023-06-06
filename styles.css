@@ -50,6 +50,7 @@ ul {
 .box {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .main {
@@ -83,6 +84,7 @@ ul {
 .hills {
     width: 500px;
     height: auto;
+    max-width: 100%;
 }
 
 .information {
@@ -118,14 +120,21 @@ ul {
     text-align: center;
 }
 
-.quote {
+.section-four {
     background-color: #e5e7eb;
-    height: 400px;
-    min-width: 700px;
-    padding: 0 450px;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    height: 70%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center ;
 }
 
 .quote .text {
@@ -141,7 +150,6 @@ ul {
     align-self: flex-end;
     font-size: 30px;
     font-weight: bold;
-
 }
 
 
