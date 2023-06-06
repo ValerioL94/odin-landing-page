@@ -5,7 +5,7 @@ Creating a web page from a given design
 
 Image credits:
 
-"andean bear" : https://pixabay.com/users/minka2507-3728206/ 
+"hills" : https://pixabay.com/photos/hills-india-nature-kodaikanal-2836301/
 
 "owl" : https://pixabay.com/users/chraecker-5555/
 
