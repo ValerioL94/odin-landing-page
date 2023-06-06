@@ -197,4 +197,9 @@ font-weight: 900;
 .footer {
     background-color: #1F2937;
     height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
