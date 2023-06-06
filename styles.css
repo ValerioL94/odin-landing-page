@@ -21,7 +21,8 @@ body {
 
 .header {
     display: flex;
-    height: 50px;
+    height: 40px;
+    padding: 10px 0;
     justify-content: space-between;
     align-items: center;
 }
@@ -57,6 +58,7 @@ ul {
     display: flex;
     flex-direction: column;
     flex-basis: 450px;
+    padding: 10px 0;
 
 }
 
@@ -72,7 +74,7 @@ ul {
     margin-bottom: 10px;
 }
 
-.sign-up-top {
+.top-button {
     color: #e5e7eb;
     font-weight: 700;
     background-color: #3882f6;
@@ -106,6 +108,7 @@ ul {
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
+    padding: 0 10px;
 }
 
 .info-box .item img {
@@ -120,7 +123,7 @@ ul {
     text-align: center;
 }
 
-.section-four {
+.quote-section {
     background-color: #e5e7eb;
     min-height: 400px;
     display: flex;
@@ -153,17 +156,42 @@ ul {
 }
 
 
-.background {
+.cta-bg {
     height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.call-to-action {
+.cta-box {
     background-color: #3882F6;
     height: 150px;
     width: 75%;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cta-title {
+font-size: 30px;
+color: white;
+font-weight: 900;
+}
+
+.cta-text {
+    color: white;
+}
+
+.bot-button {
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+    width: 120px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: #3882F6;
+    
 }
 
 .footer {
