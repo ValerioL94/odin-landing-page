@@ -4,14 +4,14 @@ body {
     margin: 0;
 }
 
-.hero {
+#hero {
     background-color: #1F2937;
     height: 600px;
     display: flex;
     justify-content: center;
 }
 
-.container {
+#hero .container {
     height: 450px;
     width: 75%;
     display: flex;
@@ -19,7 +19,7 @@ body {
     justify-content: space-between;
 }
 
-.header {
+#header {
     display: flex;
     height: 40px;
     padding: 10px 0;
@@ -27,16 +27,10 @@ body {
     align-items: center;
 }
 
-.logo {
+#header .logo {
     font-size: 24px;
     font-weight: 900;
     color: #f9faf8;
-}
-
-a {
-    text-decoration-line: none;
-    color: #f9faf8;
-    font-size: 18px;
 }
 
 ul {
@@ -48,7 +42,14 @@ ul {
     border: 0;
 }
 
-.box {
+a {
+    text-decoration-line: none;
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+
+#hero .box {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -68,19 +69,20 @@ ul {
     color: #f9faf8;
 }
 
-.para {
+.main .text {
     font-size: 18px;
     color: #e5e7eb;
     margin-bottom: 10px;
 }
 
-.top-button {
+#hero .button {
     color: #e5e7eb;
     font-weight: 700;
     background-color: #3882f6;
     padding: 10px;
     width: 120px;
     border-radius: 10px;
+    border: #1F2937
 }
 
 .hills {
@@ -89,7 +91,7 @@ ul {
     max-width: 100%;
 }
 
-.information {
+#info {
     min-height: 500px;
     display: flex;
     flex-direction: column;
@@ -97,21 +99,21 @@ ul {
 }
 
 
-.info-title {
+#info .title {
     font-size: 36px;
     font-weight: bold;
     color: #1F2937;
     padding: 50px;
 }
 
-.info-box {
+#info .container {
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
     padding: 0 10px;
 }
 
-.info-box .item img {
+#info .item img {
     width: 200px;
     height: 200px;
     border: solid;
@@ -119,11 +121,11 @@ ul {
     border-color: #3882F6;
 }
 
-.info-box div .text {
+#info .item .text {
     text-align: center;
 }
 
-.quote-section {
+#quote {
     background-color: #e5e7eb;
     min-height: 400px;
     display: flex;
@@ -131,16 +133,16 @@ ul {
     align-items: center;
 }
 
-.quote {
+#quote .container {
     height: 70%;
     width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center ;
+    align-items: center;
 }
 
-.quote .text {
+#quote .text1 {
     display: flex;
     font-size: 36px;
     font-weight: lighter;
@@ -148,7 +150,7 @@ ul {
     color: #1F2937;
 }
 
-.quote .author {
+#quote .text2 {
     display: flex;
     align-self: flex-end;
     font-size: 30px;
@@ -156,14 +158,14 @@ ul {
 }
 
 
-.cta-bg {
+#call-to-action {
     height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.cta-box {
+#call-to-action .container {
     background-color: #3882F6;
     height: 150px;
     width: 75%;
@@ -173,17 +175,17 @@ ul {
     align-items: center;
 }
 
-.cta-title {
-font-size: 30px;
-color: white;
-font-weight: 900;
+#call-to-action .title {
+    font-size: 30px;
+    color: white;
+    font-weight: 900;
 }
 
-.cta-text {
+#call-to-action .text {
     color: white;
 }
 
-.bot-button {
+#call-to-action .button {
     color: white;
     font-weight: 700;
     padding: 10px;
@@ -191,10 +193,10 @@ font-weight: 900;
     border-radius: 10px;
     border: 2px solid white;
     background-color: #3882F6;
-    
+
 }
 
-.footer {
+#footer {
     background-color: #1F2937;
     height: 100px;
     color: white;
